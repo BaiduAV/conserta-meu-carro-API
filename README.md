@@ -9,7 +9,7 @@ https://conserta-meu-carro-api.herokuapp.com/
 ## Endpoints
 
 - /register/
-- /signin/
+- /login/
 - /orders/
 
 ### Cadastro de usuário (empresa)
@@ -90,7 +90,7 @@ Caso dê tudo certo, as resposta será assim:
 
 ### Login de usuários (Empresas e usuários)
 
-`POST /signin - FORMATO DA REQUISIÇÃO`
+`POST /login - FORMATO DA REQUISIÇÃO`
 
 ```json
 {
@@ -101,7 +101,7 @@ Caso dê tudo certo, as resposta será assim:
 
 Caso tudo dê certo:
 
-`POST /signin - FORMATO DA RESPOSTA - STATUS 200 `
+`POST /login - FORMATO DA RESPOSTA - STATUS 200 `
 
 ```json
 {
