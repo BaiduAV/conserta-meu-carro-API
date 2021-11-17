@@ -1,46 +1,30 @@
 {
   "users": [
     {
-      "email": "ricardo@mail.com",
-      "password": "$2a$10$skIgY7DszdzkDKG4U8.4deSeT8WXLmXUf5HrLoy2B4o8Qe6fnh2ia",
-      "name": "Ricardão da Bateria",
-      "company_name": "Bruno bom comércio de baterias Ltda",
-      "cnpj": "01908120000181",
-      "address": "Rua Ceará, 3312, Praça da Bandeira, Rio de Janeiro",
+      "email": "user@mail.com",
+      "password": "$2a$10$54FuNpv3I5dcXw2JIqL7COaKTIEMpcJqH4SXVzk0XSiS2RbX7lvbS",
+      "type": "user",
       "id": 1
     },
     {
-      "email": "luizdabmw@mail.com",
-      "password": "$2a$10$l9LsK9s9f4oU64LmRNK.iORtXJlw9JwCDpgLBiStLm7J59hpFdemG",
-      "name": "Luiz Victor",
-      "cpf": "96351322254",
+      "email": "company@mail.com",
+      "password": "$2a$10$nrAWkJ4/hxUq3gzh.fEcCOCYaD99SuOHoaZOOGACfjG4MMCTVrK7C",
+      "type": "company",
       "id": 2
     }
   ],
   "orders": [
     {
-      "name": "Troca de pneu",
-      "description": "Lorem ipsum",
-      "address": "Rua Augusta, 2331",
-      "car": {
-        "model": "Kwid",
-        "year": "2018"
+      "title": "Faltou combustível",
+      "description": "Tô sem gasosa",
+      "address": "Rodovia dos bandeirantes",
+      "vehicle": {
+        "model": "Honda Civic",
+        "year": 2017
       },
-      "userId": 3,
-      "id": 2,
-      "completed": true
-    },
-    {
-      "name": "Troca de pneu",
-      "description": "Lorem ipsum",
-      "address": "Rua Augusta, 2331",
-      "completed": true,
-      "car": {
-        "model": "Kwid",
-        "year": "2018"
-      },
-      "userId": 3,
-      "id": 3
+      "status": "pending",
+      "userId": 1,
+      "id": 1
     }
   ]
 }
